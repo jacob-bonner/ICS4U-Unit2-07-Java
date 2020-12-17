@@ -1,5 +1,5 @@
 /*
-* This program uses classes and subclasses to create and change the preperties 
+* This program uses classes and subclasses to create and change the properties 
 * of a bicycle and truck.
 *
 * @author  Jacob Bonner
@@ -57,7 +57,7 @@ public class NewVehicles {
                          + userBike.getColour());
       System.out.println("");
 
-      // Changing the colour of the bicycle
+      // Changing the colour of the truck
       System.out.print("Your truck needs some new paint! What colour is it: ");
       vehicleColour = colourInput.nextLine();
       userTruck.setColour(vehicleColour);
